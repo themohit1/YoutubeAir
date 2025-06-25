@@ -55,5 +55,5 @@ To contribute or modify the extension:
 ## Issues
 If you encounter bugs or have feature requests, please open an issue on the GitHub repository. Provide as much detail as possible, including steps to reproduce, browser version, and screenshots if applicable.
 
-## Contributing
-Contributions are welcome! Please submit issues or pull requests to the GitHub repository.
+## Contributions
+Contributions! Please submit issues or pull requests to the GitHub repository.
