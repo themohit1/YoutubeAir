@@ -1,0 +1,22 @@
+{
+  "name": "YoutubeAir",
+  "description": "",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "action": {
+    "default_name": "Maximize Player",
+    "default_popup": "./settings/settings.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

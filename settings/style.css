@@ -1,0 +1,80 @@
+:root {
+  --color-primary: #0d0d0d;
+  --color-secondary: #1a1a1a;
+  --color-text-primary: #e1e1e1;
+  --checkbox-color: #007bff;
+  --border-radius-main: 8px;
+  --font-size-13: 13px;
+  --font-size-15: 15px;
+  --padding-small: 6px;
+  --padding-medium: 12px;
+  --checkbox-size: 18px;
+}
+
+body {
+  background: var(--color-primary);
+  color: var(--color-text-primary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: var(--padding-medium);
+  user-select: none;
+  width: 220px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: var(--font-size-15);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: var(--padding-medium);
+  color: #ffffff;
+}
+
+.info {
+  margin-top: var(--padding-medium);
+  margin-bottom: var(--padding-small);
+  font-size: var(--font-size-13);
+  font-weight: 500;
+  color: #aaaaaa;
+  border-bottom: 1px solid var(--color-secondary);
+  padding-bottom: 4px;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding-small) 0;
+  margin-bottom: var(--padding-small);
+}
+
+.setting-text {
+  font-size: var(--font-size-13);
+  font-weight: normal;
+}
+
+.checkbox {
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  accent-color: var(--checkbox-color);
+  cursor: pointer;
+  margin-left: var(--padding-small);
+}
+
+.hotkey-input {
+  width: 30px;
+  height: 24px;
+  background-color: var(--color-secondary);
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: var(--color-text-primary);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+#settings {
+  margin-bottom: var(--padding-medium);
+}
