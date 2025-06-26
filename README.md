@@ -50,7 +50,7 @@ To contribute or modify the extension:
 3. Reload the extension in browser (`extensions page`) by clicking the refresh icon or re-loading the extension.
 
 ### Requirements
-- Any Chromium-based browser supporting Manifest V3.
+- Any Chromium-based browser.
 
 ## Issues
 If you encounter bugs or have feature requests, please open an issue on the GitHub repository. Provide as much detail as possible, including steps to reproduce, browser version, and screenshots if applicable.
