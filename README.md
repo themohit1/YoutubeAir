@@ -1,6 +1,6 @@
 # YoutubeAir
 
-A lightweight Chromium-based extension that enhances the YouTube viewing experience by adding a **Maximize Player Mode** to expand video playback space. This extension removes the YouTube masthead and adjusts the player to fill the viewport.
+Lightweight Chromium-based extension that enhances the YouTube viewing experience by adding a **Maximize Player Mode** to expand video playback space. This extension removes the YouTube masthead and adjusts the player to fill the viewport.
 
 ## Features
 - **Maximize Player Mode**: Expands the YouTube video player to full viewport height, hiding the masthead for a cleaner experience.
